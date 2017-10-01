@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.5.2
+- https://www.phpmyadmin.net
+-
+- Máy chủ: 127.0.0.1
+- Thời gian đã tạo: Th6 01, 2017 lúc 06:29 CH
+- Phiên bản máy phục vụ: 10.1.21-MariaDB
+- Phiên bản PHP: 7.1.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="webphim" collation="utf8mb4_vietnamese_ci" charset="utf8mb4">
+            <pma:table name="admin">
+                CREATE TABLE `admin` (
+                  `username` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `pass` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  PRIMARY KEY (`id`),
+                  KEY `id` (`id`),
+                  KEY `id_2` (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_0">
+                CREATE TABLE `binhluan_0` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_1">
+                CREATE TABLE `binhluan_1` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_2">
+                CREATE TABLE `binhluan_2` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_3">
+                CREATE TABLE `binhluan_3` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_4">
+                CREATE TABLE `binhluan_4` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_5">
+                CREATE TABLE `binhluan_5` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_7">
+                CREATE TABLE `binhluan_7` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_8">
+                CREATE TABLE `binhluan_8` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_9">
+                CREATE TABLE `binhluan_9` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_10">
+                CREATE TABLE `binhluan_10` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_11">
+                CREATE TABLE `binhluan_11` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_12">
+                CREATE TABLE `binhluan_12` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_13">
+                CREATE TABLE `binhluan_13` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_14">
+                CREATE TABLE `binhluan_14` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_15">
+                CREATE TABLE `binhluan_15` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_16">
+                CREATE TABLE `binhluan_16` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_17">
+                CREATE TABLE `binhluan_17` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_18">
+                CREATE TABLE `binhluan_18` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_19">
+                CREATE TABLE `binhluan_19` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_20">
+                CREATE TABLE `binhluan_20` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="binhluan_21">
+                CREATE TABLE `binhluan_21` (
+                  `idbl` int(11) NOT NULL AUTO_INCREMENT,
+                  `iduser` int(11) DEFAULT NULL,
+                  `noidung` text COLLATE utf8mb4_vietnamese_ci,
+                  PRIMARY KEY (`idbl`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="daodien">
+                CREATE TABLE `daodien` (
+                  `idphim` int(11) NOT NULL,
+                  `tendaodien` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  PRIMARY KEY (`idphim`,`tendaodien`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="dienvien">
+                CREATE TABLE `dienvien` (
+                  `idphim` int(11) NOT NULL,
+                  `tendienvien` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  PRIMARY KEY (`idphim`,`tendienvien`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="kichban">
+                CREATE TABLE `kichban` (
+                  `idphim` int(11) NOT NULL,
+                  `kichban` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  PRIMARY KEY (`idphim`,`kichban`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="phim">
+                CREATE TABLE `phim` (
+                  `idphim` int(11) NOT NULL AUTO_INCREMENT,
+                  `tenphimvi` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `tenphimen` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `nam` int(11) NOT NULL,
+                  `thoigian` varchar(50) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `diemimdb` varchar(50) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `poster` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `mota` longtext COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `luotxem` int(11) NOT NULL,
+                  `linkphim` text COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  PRIMARY KEY (`idphim`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="phimyeuthich">
+                CREATE TABLE `phimyeuthich` (
+                  `id` int(11) NOT NULL,
+                  `idphim` int(11) NOT NULL,
+                  PRIMARY KEY (`id`,`idphim`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="theloai">
+                CREATE TABLE `theloai` (
+                  `idphim` int(11) NOT NULL,
+                  `tentheloai` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `tentheloai_khongdau` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  PRIMARY KEY (`idphim`,`tentheloai`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+            <pma:table name="user">
+                CREATE TABLE `user` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `mail` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `ho_ten` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `gioitinh` varchar(50) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `ngaysinh` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `pass` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  `avatar` varchar(255) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Cơ sở dữ liệu: 'webphim'
+    -->
+    <database name="webphim">
+        <!-- Bảng admin -->
+        <table name="admin">
+            <column name="username">admin</column>
+            <column name="pass">admin</column>
+            <column name="id">1</column>
+        </table>
+        <!-- Bảng binhluan_0 -->
+        <!-- Bảng binhluan_1 -->
+        <table name="binhluan_1">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">khÃ´ng biáº¿t phim nÃ y tháº¿ nÃ o</column>
+        </table>
+        <table name="binhluan_1">
+            <column name="idbl">2</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim kinh dá»‹</column>
+        </table>
+        <table name="binhluan_1">
+            <column name="idbl">3</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ná»™i dung bÃ¬nh luáº­n</column>
+        </table>
+        <table name="binhluan_1">
+            <column name="idbl">4</column>
+            <column name="iduser">1</column>
+            <column name="noidung">abcd</column>
+        </table>
+        <!-- Bảng binhluan_2 -->
+        <table name="binhluan_2">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim nÃ y hay</column>
+        </table>
+        <table name="binhluan_2">
+            <column name="idbl">2</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim nÃ y hay</column>
+        </table>
+        <table name="binhluan_2">
+            <column name="idbl">3</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim nÃ y hay</column>
+        </table>
+        <table name="binhluan_2">
+            <column name="idbl">4</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim khÃ¡ hay</column>
+        </table>
+        <table name="binhluan_2">
+            <column name="idbl">5</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim nÃ y ráº¥t hÃ i</column>
+        </table>
+        <table name="binhluan_2">
+            <column name="idbl">6</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ná»™i dung</column>
+        </table>
+        <!-- Bảng binhluan_3 -->
+        <table name="binhluan_3">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ná»™i dung phim Ä‘Æ¡n giáº£n</column>
+        </table>
+        <!-- Bảng binhluan_4 -->
+        <table name="binhluan_4">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ná»™i dung bÃ¬nh luáº­n</column>
+        </table>
+        <table name="binhluan_4">
+            <column name="idbl">2</column>
+            <column name="iduser">1</column>
+            <column name="noidung">thÃªm ná»™i dung bÃ¬nh luáº­n</column>
+        </table>
+        <!-- Bảng binhluan_5 -->
+        <table name="binhluan_5">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim ráº¥t hay</column>
+        </table>
+        <table name="binhluan_5">
+            <column name="idbl">2</column>
+            <column name="iduser">1</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_5">
+            <column name="idbl">3</column>
+            <column name="iduser">1</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_5">
+            <column name="idbl">4</column>
+            <column name="iduser">1</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_5">
+            <column name="idbl">5</column>
+            <column name="iduser">3</column>
+            <column name="noidung">Ä‘Ãºng lÃ  phim hay</column>
+        </table>
+        <!-- Bảng binhluan_7 -->
+        <table name="binhluan_7">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ná»™i dung</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">2</column>
+            <column name="iduser">1</column>
+            <column name="noidung">bÃ¬nh luáº­n</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">3</column>
+            <column name="iduser">1</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">4</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ggjhjhjh</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">5</column>
+            <column name="iduser">1</column>
+            <column name="noidung">jjjjjjjjjjj</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">6</column>
+            <column name="iduser">1</column>
+            <column name="noidung">dlfjadfj</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">7</column>
+            <column name="iduser">1</column>
+            <column name="noidung">jhjlkjlj</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">8</column>
+            <column name="iduser">1</column>
+            <column name="noidung">sdflajds;f</column>
+        </table>
+        <table name="binhluan_7">
+            <column name="idbl">9</column>
+            <column name="iduser">1</column>
+            <column name="noidung">dáº§ddáº§dsfadsfadf</column>
+        </table>
+        <!-- Bảng binhluan_8 -->
+        <table name="binhluan_8">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">ná»™i dung</column>
+        </table>
+        <table name="binhluan_8">
+            <column name="idbl">2</column>
+            <column name="iduser">3</column>
+            <column name="noidung">jllkl</column>
+        </table>
+        <table name="binhluan_8">
+            <column name="idbl">3</column>
+            <column name="iduser">3</column>
+            <column name="noidung">kjkjkjk</column>
+        </table>
+        <!-- Bảng binhluan_9 -->
+        <!-- Bảng binhluan_10 -->
+        <!-- Bảng binhluan_11 -->
+        <table name="binhluan_11">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim hay</column>
+        </table>
+        <!-- Bảng binhluan_12 -->
+        <!-- Bảng binhluan_13 -->
+        <table name="binhluan_13">
+            <column name="idbl">1</column>
+            <column name="iduser">3</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_13">
+            <column name="idbl">2</column>
+            <column name="iduser">3</column>
+            <column name="noidung">kj</column>
+        </table>
+        <table name="binhluan_13">
+            <column name="idbl">3</column>
+            <column name="iduser">3</column>
+            <column name="noidung">bÃ¬nh luáº­n</column>
+        </table>
+        <!-- Bảng binhluan_14 -->
+        <!-- Bảng binhluan_15 -->
+        <!-- Bảng binhluan_16 -->
+        <!-- Bảng binhluan_17 -->
+        <table name="binhluan_17">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">bÃ¬nh luáº­n</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">2</column>
+            <column name="iduser">3</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">3</column>
+            <column name="iduser">3</column>
+            <column name="noidung">bÃ¬nh luáº­n</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">4</column>
+            <column name="iduser">3</column>
+            <column name="noidung">bÃ¬nh luáº­n</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">5</column>
+            <column name="iduser">3</column>
+            <column name="noidung">phim hay</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">6</column>
+            <column name="iduser">3</column>
+            <column name="noidung">abcd</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">7</column>
+            <column name="iduser">3</column>
+            <column name="noidung">sdasdf</column>
+        </table>
+        <table name="binhluan_17">
+            <column name="idbl">8</column>
+            <column name="iduser">3</column>
+            <column name="noidung">dkkkk</column>
+        </table>
+        <!-- Bảng binhluan_18 -->
+        <table name="binhluan_18">
+            <column name="idbl">1</column>
+            <column name="iduser">3</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_18">
+            <column name="idbl">2</column>
+            <column name="iduser">3</column>
+            <column name="noidung">khÃ¡ hay</column>
+        </table>
+        <!-- Bảng binhluan_19 -->
+        <table name="binhluan_19">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim hay</column>
+        </table>
+        <table name="binhluan_19">
+            <column name="idbl">2</column>
+            <column name="iduser">1</column>
+            <column name="noidung">hay</column>
+        </table>
+        <table name="binhluan_19">
+            <column name="idbl">3</column>
+            <column name="iduser">1</column>
+            <column name="noidung">hay</column>
+        </table>
+        <!-- Bảng binhluan_20 -->
+        <table name="binhluan_20">
+            <column name="idbl">1</column>
+            <column name="iduser">1</column>
+            <column name="noidung">phim</column>
+        </table>
+        <!-- Bảng binhluan_21 -->
+        <!-- Bảng daodien -->
+        <table name="daodien">
+            <column name="idphim">0</column>
+            <column name="tendaodien">Chris Wedge</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">1</column>
+            <column name="tendaodien">Baoqiang Wang</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">1</column>
+            <column name="tendaodien">Mike Mendez </column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">2</column>
+            <column name="tendaodien">Baoqiang Wang</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">3</column>
+            <column name="tendaodien">Sarik Andreasyan</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">4</column>
+            <column name="tendaodien">Elliott Lester</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">5</column>
+            <column name="tendaodien">Damien Chazelle</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">7</column>
+            <column name="tendaodien">Tá»« Kháº¯c</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">8</column>
+            <column name="tendaodien">D.J. Caruso</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">9</column>
+            <column name="tendaodien">Ã‰ric Warin</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">9</column>
+            <column name="tendaodien">Eric Summer</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">10</column>
+            <column name="tendaodien">Ding Sheng</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">11</column>
+            <column name="tendaodien">Baran bo Odar</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">12</column>
+            <column name="tendaodien">Gordon Chan</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">13</column>
+            <column name="tendaodien">Justin Kurzel</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">14</column>
+            <column name="tendaodien">Anna Foerster </column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">15</column>
+            <column name="tendaodien">TrÆ°Æ¡ng Nghá»‡ MÆ°u</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">16</column>
+            <column name="tendaodien">Paul W.S. Anderson</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">17</column>
+            <column name="tendaodien">Gareth Edwards</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">18</column>
+            <column name="tendaodien">Christophe Lourdelet</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">18</column>
+            <column name="tendaodien">Garth Jennings </column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">19</column>
+            <column name="tendaodien">Scott Derrickson</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">20</column>
+            <column name="tendaodien">Peter Berg</column>
+        </table>
+        <table name="daodien">
+            <column name="idphim">21</column>
+            <column name="tendaodien">James Mangold</column>
+        </table>
+        <!-- Bảng dienvien -->
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Amy Ryan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Barry Pepper</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Danny Glover</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Frank Whaley</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Holt McCallany</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Jane Levy</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Lucas Till</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Rob Lowe</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">0</column>
+            <column name="tendienvien">Thomas Lennon</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Aaron McPherson </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Billy Slaughter </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Dolph Lundgren </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Elissa Dowling </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Emily Brobst </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Jasi Cotton Lanier </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Kristina Klebe </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Michael Aaron Milligan </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Michelle West </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Sam Furman </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">1</column>
+            <column name="tendienvien">Tara Cardinal </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">2</column>
+            <column name="tendienvien">Báº¡ch KhÃ¡ch</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">2</column>
+            <column name="tendienvien">Lá»¥c Tiá»ƒu Linh Äá»“ng</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">2</column>
+            <column name="tendienvien">Liá»…u Nham</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">2</column>
+            <column name="tendienvien">Nháº¡c VÃ¢n Báº±ng</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">2</column>
+            <column name="tendienvien">ThÃ­ch Tiá»ƒu Long</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">2</column>
+            <column name="tendienvien">VÆ°Æ¡ng Báº£o CÆ°á»ng</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Alina Lanina</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Anton Pampushnyy</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Sanjar Madi</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Sebastien Sisak</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Stanislav Shirin</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Valeriya Shkirando</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">3</column>
+            <column name="tendienvien">Vyacheslav Razbegaev</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Arnold Schwarzenegger</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Glenn Morshower</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Hannah Ware</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Kevin Zegers</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Maggie Grace</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Mariana Klaveno </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">4</column>
+            <column name="tendienvien">Scoot McNairy</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">AmiÃ©e Conn</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Callie Hernandez</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Cinda Adams</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Emma Stone</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Jessica Rothe</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Ryan Gosling</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Sonoya Mizuno</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Terry Walters</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">5</column>
+            <column name="tendienvien">Thom Shelton</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">Ba Äáº·c NhÄ©</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">Diá»‡u Tháº§n</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">LÃ¢m Canh TÃ¢n</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">LÃ¢m DoÃ£n</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">NgÃ´ Diá»‡c PhÃ m</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">ThÆ° Ká»³</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">7</column>
+            <column name="tendienvien">VÆ°Æ¡ng Lá»‡ KhÃ´n</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">ChÃ¢n Tá»­ Äan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">Deepika Padukone</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">Kris Wu</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">Nina Dobrev</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">Ruby Rose</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">Tony Jaa</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">8</column>
+            <column name="tendienvien">Vin Diesel</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">9</column>
+            <column name="tendienvien">Carly Rae Jepsen</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">9</column>
+            <column name="tendienvien">Dane DeHaan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">9</column>
+            <column name="tendienvien">Elle Fanning</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">9</column>
+            <column name="tendienvien">Maddie Ziegler</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">9</column>
+            <column name="tendienvien">Terrence Scammell</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">10</column>
+            <column name="tendienvien">Hiroyuki Ikeuchi</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">10</column>
+            <column name="tendienvien">HoÃ ng Tá»­ Thao</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">10</column>
+            <column name="tendienvien">Jaycee Chan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">10</column>
+            <column name="tendienvien">Kai Wang</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">10</column>
+            <column name="tendienvien">Ping Sang</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">10</column>
+            <column name="tendienvien">ThÃ nh Long</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">11</column>
+            <column name="tendienvien">David Harbour</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">11</column>
+            <column name="tendienvien">Dermot Mulroney</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">11</column>
+            <column name="tendienvien">Jamie Foxx</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">11</column>
+            <column name="tendienvien">Michelle Monaghan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">11</column>
+            <column name="tendienvien">Scoot McNairy</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">11</column>
+            <column name="tendienvien">T.I.</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">12</column>
+            <column name="tendienvien">Huá»³nh Thu Sinh</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">12</column>
+            <column name="tendienvien">LÃ½ BÄƒng BÄƒng</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">12</column>
+            <column name="tendienvien">LÆ°u Äá»©c Hoa</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">12</column>
+            <column name="tendienvien">TrÆ°Æ¡ng BÃ¡ Chi</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Ariane Labed</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Brendan Gleeson</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Charlotte Rampling</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Denis MÃ©nochet</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Jeremy Irons</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Marion Cotillard</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Michael Fassbender</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">13</column>
+            <column name="tendienvien">Michael Kenneth Williams</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Bradley James</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Charles Dance</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Clementine Nicholson</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">James Faulkner</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Kate Beckinsale</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Lara Pulver</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Peter Andersson</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Theo James</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">14</column>
+            <column name="tendienvien">Tobias Menzies</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">BÃ nh Vu Yáº¿n</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">Cáº£nh Äiá»m</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">Hanyu Zhang</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">LÃ¢m Canh TÃ¢n</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">LÆ°u Äá»©c Hoa</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">Lu Han</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">Matt Damon</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">Pedro Pascal</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">15</column>
+            <column name="tendienvien">Willem Dafoe</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Ali Larter</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Eoin Macken</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Fraser James</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Iain Glen</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Milla Jovovich</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Ruby Rose </column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">Shawn Roberts</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">16</column>
+            <column name="tendienvien">William Levy</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Alan Tudyk</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Ben Mendelsohn</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">ChÃ¢n Tá»­ Äan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Diego Luna</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Felicity Jones</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Forest Whitaker</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Guy Henry</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">17</column>
+            <column name="tendienvien">Wen Jiang</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">18</column>
+            <column name="tendienvien">John C. Reilly</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">18</column>
+            <column name="tendienvien">Matthew McConaughey</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">18</column>
+            <column name="tendienvien">Reese Witherspoon</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">18</column>
+            <column name="tendienvien">Scarlett Johansson</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">18</column>
+            <column name="tendienvien">Seth MacFarlane</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">18</column>
+            <column name="tendienvien">Taron Egerton</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Benedict Cumberbatch</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Benedict Wong</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Benjamin Bratt</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Chiwetel Ejiofor</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Mads Mikkelsen</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Michael Stuhlbarg</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Rachel McAdams</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">19</column>
+            <column name="tendienvien">Tilda Swinton</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">Dicky Eklund Jr.</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">Frank Czarnowski</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">John Goodman</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">Mark Wahlberg</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">Michael Marchand</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">Rachel Brosnahan</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">20</column>
+            <column name="tendienvien">Rhet Kidd</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Boyd Holbrook</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Dafne Keen</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Elizabeth Rodriguez</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Eriq La Salle</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Hugh Jackman</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Patrick Stewart</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Richard E. Grant</column>
+        </table>
+        <table name="dienvien">
+            <column name="idphim">21</column>
+            <column name="tendienvien">Stephen Merchant</column>
+        </table>
+        <!-- Bảng kichban -->
+        <table name="kichban">
+            <column name="idphim">0</column>
+            <column name="kichban">Derek Connolly</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">0</column>
+            <column name="kichban">Matthew Robinson</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">1</column>
+            <column name="kichban">Baoqiang Wang</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">1</column>
+            <column name="kichban">Dan Berk</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">1</column>
+            <column name="kichban">Robert Olsen </column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">2</column>
+            <column name="kichban">Baoqiang Wang</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">3</column>
+            <column name="kichban">Andrey Gavrilov</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">4</column>
+            <column name="kichban">Javier GullÃ³n</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">5</column>
+            <column name="kichban">Damien Chazelle</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">7</column>
+            <column name="kichban">ChÃ¢u Tinh TrÃ¬</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">7</column>
+            <column name="kichban">Si-Cheun Lee</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">8</column>
+            <column name="kichban">F. Scott Frazier</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">8</column>
+            <column name="kichban">Rich Wilkes</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">9</column>
+            <column name="kichban">Eric Summer</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">10</column>
+            <column name="kichban">Alex Jia</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">10</column>
+            <column name="kichban">He Keke</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">11</column>
+            <column name="kichban">Andrea Berloff</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">11</column>
+            <column name="kichban">FrÃ©dÃ©ric Jardin</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">12</column>
+            <column name="kichban">Felix Chong</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">12</column>
+            <column name="kichban">Gordon Chan</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">13</column>
+            <column name="kichban">Adam Cooper</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">13</column>
+            <column name="kichban">Michael Lesslie</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">14</column>
+            <column name="kichban">Cory Goodman</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">14</column>
+            <column name="kichban">Kyle Ward</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">15</column>
+            <column name="kichban">Carlo Bernard</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">15</column>
+            <column name="kichban">Doug Miro</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">16</column>
+            <column name="kichban">Paul W.S. Anderson</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">17</column>
+            <column name="kichban">Chris Weitz</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">17</column>
+            <column name="kichban">Tony Gilroy</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">18</column>
+            <column name="kichban">Garth Jennings</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">19</column>
+            <column name="kichban">Jon Spaihts</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">19</column>
+            <column name="kichban">Scott Derrickson</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">20</column>
+            <column name="kichban">Matt Cook</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">20</column>
+            <column name="kichban">Peter Berg</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">21</column>
+            <column name="kichban">James Mangold</column>
+        </table>
+        <table name="kichban">
+            <column name="idphim">21</column>
+            <column name="kichban">Scott Frank</column>
+        </table>
+        <!-- Bảng phim -->
+        <table name="phim">
+            <column name="idphim">1</column>
+            <column name="tenphimvi">Thá»£ SÄƒn Quá»· (2017)</column>
+            <column name="tenphimen">Do not Kill ItÂ (2017) </column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 23min</column>
+            <column name="diemimdb">5.1</column>
+            <column name="poster">http://phim.mt/Dont%20Kill%20It%202016/poster.jpg</column>
+            <column name="mota">Má»™t con quá»· cá»• xÆ°a Ä‘ang Ä‘e dá»a má»™t thá»‹ tráº¥n nhá» á»Ÿ Mississippi.
+</column>
+            <column name="luotxem">39</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqQXoxQ05OQUJTcTQ/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">2</column>
+            <column name="tenphimvi">Äáº¡i NÃ¡o ThiÃªn TrÃºc (2017)</column>
+            <column name="tenphimen">Buddies in IndiaÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 39min</column>
+            <column name="diemimdb">4.0</column>
+            <column name="poster">http://phim.mt/Buddies%20in%20India%202017/poster.jpg</column>
+            <column name="mota">Äáº¡i NÃ¡o ThiÃªn TrÃºc 2017 lÃ  tÃ¡c pháº©m Ä‘iá»‡n áº£nh phÃ³ng tÃ¡c dá»±a trÃªn tiá»ƒu thuyáº¿t TÃ¢y Du KÃ½ cá»§a NgÃ´ Thá»«a Â Ã‚n. Xoay quanh quÃ¡ trÃ¬nh sang áº¤n Äá»™ tÃ¬m kiáº¿m di chÃºc cá»§a nhÃ³m 4 ngÆ°á»i ÄÆ°á»ng SÃ¢m, VÅ© KhÃ´ng, Chu ThiÃªn Báº±ng vÃ  Ngá»™ TÄ©nh. Trong phim, Lá»¥c Tiá»ƒu Linh Äá»“ng vÃ o vai VÃµ ThÃ¡nh, cha cá»§a VÅ© KhÃ´ng (VÆ°Æ¡ng Báº£o CÆ°á»ng). Äáº·c biá»‡t, Ã´ng cÃ²n tÃ¡i hiá»‡n láº¡i hÃ¬nh áº£nh TÃ´n Ngá»™ KhÃ´ng huyá»n thoáº¡i cá»§a mÃ¬nh trÃªn mÃ n áº£nh rá»™ng.
+</column>
+            <column name="luotxem">44</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqSzZfeHEwVzd1QW8/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">3</column>
+            <column name="tenphimvi">SiÃªu Chiáº¿n Binh (2017)</column>
+            <column name="tenphimen">The GuardiansÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 28min</column>
+            <column name="diemimdb">3.7</column>
+            <column name="poster">http://phim.mt/The%20Guardians%202017/poster.jpg</column>
+            <column name="mota">Phim SiÃªu Chiáº¿n Binh -Â Guardians 2016Â láº¥y bá»‘i cáº£nh cuá»™c chiáº¿n tranh láº¡nh cá»§a hai cÆ°á»ng quá»‘c Nga vÃ  Má»¹ Ä‘ang khÃ´ng ngá»«ng leo thang. LÃºc nÃ y, má»™t tá»• chá»©c vá»›i tÃªn gá»i lÃ  Patriot xuáº¥t hiá»‡n. Há» quyáº¿t Ä‘á»‹nh thá»±c hiá»‡n chÆ°Æ¡ng trÃ¬nh cáº£i táº¡o gen vÃ o cÆ¡ thá»ƒ cá»§a bá»‘n thanh niÃªn Ä‘á»ƒ biáº¿n há» thÃ nh nhá»¯ng chiáº¿n binh báº¥t kháº£ chiáº¿n báº¡i.
+</column>
+            <column name="luotxem">8</column>
+            <column name="linkphim">http://phim.mt/The%20Guardians%202017/The%20Guardians%202017%20ViE%201080p%20WEB-DL%20DD%205.1%20H.264-%5bHDCLUB-JadViE%5d.mkv</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">4</column>
+            <column name="tenphimvi">Sau Tháº£m Há»a (2017)</column>
+            <column name="tenphimen">AftermathÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 34min</column>
+            <column name="diemimdb">5.7</column>
+            <column name="poster">http://phim.mt/Aftermath%202017/poster.jpg</column>
+            <column name="mota">Bá»™ phim dá»±a trÃªn má»™t sá»± viá»‡c cÃ³ tháº­t vá» tháº£m há»a hÃ ng khÃ´ng. Do sai láº§m cá»§a John â€“ nhÃ¢n viÃªn khÃ´ng lÆ°u, Roman máº¥t Ä‘i gia Ä‘Ã¬nh mÃ  anh yÃªu quÃ­ vÃ  anh quyáº¿t Ä‘á»‹nh tÃ¬m kiáº¿m John Ä‘á»ƒ tÃ¬m ra cÃ¢u tráº£ lá»i trÆ°á»›c nhá»¯ng sá»± viá»‡c Ä‘au lÃ²ng mÃ  anh pháº£i nháº­n láº¥y tá»« vá»¥ rÆ¡i mÃ¡y bay...
+</column>
+            <column name="luotxem">18</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqWHFqck5QNHp5OXM/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">5</column>
+            <column name="tenphimvi">Nhá»¯ng Káº» Khá» MÆ¡ MÃ´ng (2016)</column>
+            <column name="tenphimen">La La Land (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">2h 8min</column>
+            <column name="diemimdb">8.3</column>
+            <column name="poster">http://phim.mt/La%20La%20Land%202016/poster.jpg</column>
+            <column name="mota">La La Land 2016 lÃ  cÃ¢u chuyá»‡n tÃ¬nh yÃªu tuyá»‡t Ä‘áº¹p thá»i hiá»‡n Ä‘áº¡i giá»¯a chÃ ng nháº¡c cÃ´ng piano tÃ i hoa chuyÃªn diá»…n táº¡i cÃ¡c quÃ¡n bar Sebastian (Ryan Gosling) vÃ  cÃ´ diá»…n viÃªn má»›i ná»•i xinh Ä‘áº¹p Mia Dolan (Emma Stone). Tháº¿ nhÆ°ng, á»Ÿ thiÃªn Ä‘Æ°á»ng Ä‘iá»‡n áº£nh Hollywood, tÃ¬nh yÃªu vÃ  sá»± thÃ nh cÃ´ng dÆ°á»ng nhÆ° khÃ´ng thá»ƒ song hÃ nh. Khi thÃ nh cÃ´ng vÃ  sá»± ná»•i tiáº¿ng Ä‘áº¿n, há» sáº½ pháº£i Ä‘á»‘i máº·t ra sao?
+</column>
+            <column name="luotxem">52</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqLUpTOW5xUXBQd2M/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">7</column>
+            <column name="tenphimvi">TÃ¢y Du KÃ½: Má»‘i TÃ¬nh Ngoáº¡i Truyá»‡n 2 (2017)</column>
+            <column name="tenphimen">Journey to the West: The Demons Strike BackÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 49min</column>
+            <column name="diemimdb">5.5</column>
+            <column name="poster">http://phim.mt/Journey%20to%20the%20West%20The%20Demons%20Strike%20Back%202017/poster.jpg</column>
+            <column name="mota">Dá»±a trÃªn cá»‘t truyá»‡n ná»•i tiáº¿ng TÃ¢y Du KÃ½ cá»§a NgÃ´ Thá»«a Ã‚n, chá»§ yáº¿u xoay quanh cÃ¢u chuyá»‡n thu phá»¥c 3 Ä‘á»‡ tá»­ cá»§a ÄÆ°á»ng Tam Táº¡ng (NgÃ´ Diá»‡c PhÃ m). Trong Ä‘Ã³, LÃ¢m Canh TÃ¢n sáº½ hÃ³a thÃ¢n thÃ nh TÃ´n Ngá»™ KhÃ´ng, khÃ¡c xa vá»›i cÃ¡c hÃ¬nh tÆ°á»£ng TÃ´n Ngá»™ KhÃ´ng khÃ¡c. TÃ¡c pháº©m do ChÃ¢u Tinh TrÃ¬ chá»‰ Ä‘áº¡o diá»…n xuáº¥t, sáº½ lÃ  má»™t sá»± bÃ¹ng ná»• hay tháº£m há»a?
+</column>
+            <column name="luotxem">35</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqbzlPRmZQUDREcDg/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">8</column>
+            <column name="tenphimvi">xXx: Pháº£n ÄÃ²n (2017)</column>
+            <column name="tenphimen">xXx: Return of Xander CageÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 47min</column>
+            <column name="diemimdb">5.3</column>
+            <column name="poster">http://phim.mt/xXx%20Return%20of%20Xander%20Cage%202017/poster.jpg</column>
+            <column name="mota">xXx: Return Of Xander Cage 2017Â lÃ  má»™t tÃ¡c pháº©m Ä‘iá»‡n áº£nh hÃ nh Ä‘á»™ng gay cáº¥n Ä‘Æ°á»£c phÃ¡t hÃ nh bá»Ÿi hÃ£ng Paramount Pictures. KhÃ´ng chá»‰ quy tá»¥ dÃ n diá»…n viÃªn ná»•i tiáº¿ng quá»‘c táº¿ nhÆ° Vin Diesel, Samuel L.Jackson, ChÃ¢n Tá»­ Äan, mÃ  Sá»± Trá»Ÿ Láº¡i Cá»§a Xander Cage cÃ²n cÃ³ sá»± gÃ³p máº·t cá»§a cÃ¡c nhÃ¢n tá»‘ má»›i tiá»m nÄƒng, Ä‘iá»ƒn hÃ¬nh nhÆ° nam diá»…n viÃªn NgÃ´ Diá»‡c PhÃ m.
+</column>
+            <column name="luotxem">81</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqcVJlUVpXQ0l0SUk/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">9</column>
+            <column name="tenphimvi">VÅ© Äiá»‡u Tháº§n TiÃªn (2016)</column>
+            <column name="tenphimen">Ballerina (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 29min</column>
+            <column name="diemimdb">6.8</column>
+            <column name="poster">http://phim.mt/Ballerina%202016/poster.jpg</column>
+            <column name="mota">VÃ o nhá»¯ng nÄƒm 1880, FÃ©licie- má»™t cÃ´ gÃ¡i má»“ cÃ´i nghÃ¨o vá»›i mÆ¡ Æ°á»›c trá»Ÿ thÃ nh má»™t ná»¯ diá»…n viÃªn mÃºa ballet nhÆ°ng khÃ´ng Ä‘Æ°á»£c Ä‘Ã o táº¡o má»™t cÃ¡ch chÃ­nh quyâ€¦ CÃ´ bÃ© quyáº¿t Ä‘á»‹nh thoÃ¡t khá»i vÃ¹ng nÃ´ng thÃ´n Brittany Ä‘á»ƒ Ä‘áº¿n vá»›i Paris hoa lá»‡ cÃ¹ng cáº­u báº¡n thÃ¢n Victor. 11 tuá»•i â€“ khÃ´ng má»™t chÃºt kinh nghiá»‡m â€“ khÃ´ng má»™t xu dÃ­nh tÃºi nhÆ°ng vá»›i sá»± giÃºp Ä‘á»¡ cá»§a Victor vÃ  Odette (cá»±u diá»…n viÃªn mÃºa ballet tÃ i giá»i) vÃ  sá»± quyáº¿t tÃ¢m cao Ä‘á»™, FÃ©licie cháº¥p nháº­n Ä‘Æ°Æ¡ng Ä‘áº§u vá»›i vÃ´ sá»‘ thÃ¡ch thá»©c Ä‘á»ƒ theo Ä‘uá»•i Ä‘am mÃª cá»§a mÃ¬nh. Liá»‡u cÃ´ bÃ© cÃ³ Ä‘á»§ can Ä‘áº£m theo Ä‘uá»•i Ä‘am mÃª vÃ  biáº¿n Æ°á»›c mÆ¡ thÃ nh sá»± tháº­t?</column>
+            <column name="luotxem">3</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqNXVwVGZwc0twYXM/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">10</column>
+            <column name="tenphimvi">Biá»‡t Äá»™i MÃ£nh Há»• (2016)</column>
+            <column name="tenphimen">Railroad TigersÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">2h 4min</column>
+            <column name="diemimdb">6.1</column>
+            <column name="poster">http://phim.mt/Railroad%20Tigers%202016/poster.jpg</column>
+            <column name="mota">Railroad Tigers lÃ  bá»™ phim hÃ nh Ä‘á»™ng, lá»‹ch sá»­ Ä‘Æ°á»£c nhiá»u ngÆ°á»i chá» Ä‘Ã³n. NÄƒm 1941, trong bá»‘i cáº£nh Trung Quá»‘c thÃ¹ trong giáº·c ngoÃ i, má»™t cÃ´ng nhÃ¢n Ä‘Æ°á»ng sáº¯t Trung Quá»‘c Ä‘Ã£ dáº«n dáº¯t nhá»¯ng anh em cÃ³ cÃ¹ng chÃ­ hÆ°á»›ng Ä‘á»ƒ chá»‘ng láº¡i quÃ¢n Nháº­t, cÆ°á»›p láº¥y thá»±c pháº©m cá»©u khá»• táº¿ báº§n. TrÆ°á»›c tÃ¬nh hÃ¬nh Ä‘Ã³, quÃ¢n Ä‘á»™i Nháº­t báº¯t Ä‘áº§u gá»­i thÃªm quÃ¢n Ä‘á»™i tá»›i Ä‘Ã n Ã¡p khiáº¿n Ä‘á»™i MÃ£nh Há»• gáº·p vÃ´ vÃ n khÃ³ khÄƒn. ÄÃ¢y lÃ  bá»™ phim vÃµ thuáº­t tiáº¿p theo cá»§a Ã´ng vua ThÃ nh Long, phim cÃ²n cÃ³ sá»± tham gia cá»§a nam diá»…n viÃªn thá»±c lá»±c tráº» tuá»•i VÆ°Æ¡ng Äáº¡i Lá»¥c vÃ  cá»±u thÃ nh viÃªn nhÃ³m nháº¡c EXO- HoÃ ng Tá»­ Thao. </column>
+            <column name="luotxem">5</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqOFZvSkdQVXZtMEk/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">11</column>
+            <column name="tenphimvi">Äá»™t KÃ­ch MÃ n ÄÃªm (2017)</column>
+            <column name="tenphimen">SleeplessÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">1h 35min</column>
+            <column name="diemimdb">5.6</column>
+            <column name="poster">http://phim.mt/Sleepless%202017/poster.jpg</column>
+            <column name="mota">Sau khi phi vá»¥ váº­n chuyá»ƒn ma tÃºy trÃ¡i phÃ©p gáº·p tháº¥t báº¡i bá»Ÿi hai cáº£nh sÃ¡t Vincent Downs (Jamie Foxx) vÃ  Sean (Tip T.I. Harris), gÃ£ chá»§ sÃ²ng bÃ i Stan Rubino (Dermot Mulroney) quyáº¿t Ä‘á»‹nh ra tay tráº£ thÃ¹ báº±ng cÃ¡ch báº¯t cÃ³c con trai cá»§a Vincent (Octavius J. Johnson).
+Bá»‹ truy Ä‘uá»•i bá»Ÿi cáº£ thanh tra Ä‘áº¿n tá»« Sá»Ÿ Ná»™i vá»¥ lÃ  Jen Bryant (Michelle Monaghan) láº«n nhá»¯ng tÃªn trÃ¹m khÃ©t tiáº¿ng, viÃªn sÄ© quan da mÃ u buá»™c pháº£i dá»±a vÃ o báº£n nÄƒng Ä‘á»ƒ cÃ³ thá»ƒ giáº£i cá»©u con trai mÃ¬nh ngay trong Ä‘Ãªm Ä‘á»‹nh má»‡nh.Â 
+</column>
+            <column name="luotxem">4</column>
+            <column name="linkphim">http://phim.mt/Sleepless%202017/Sleepless.2017.ViE.mHD.Bluray.DD5.1.x264-%5bTRiM-JadViE%5d.mkv</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">12</column>
+            <column name="tenphimvi">Äáº¡i Hiá»‡p Triá»ƒn ChiÃªu (2003)</column>
+            <column name="tenphimen">Cat And Mouse (2003)</column>
+            <column name="nam">2003</column>
+            <column name="thoigian">1h 32min</column>
+            <column name="diemimdb">5.3</column>
+            <column name="poster">http://phim.mt/Cat%20And%20Mouse%202003/poster.jpg</column>
+            <column name="mota">Trong phim Äáº¡i Hiá»‡p Triá»ƒn ChiÃªu, Bao Thanh ThiÃªn lÃ  vá»‹ quan ná»•i tiáº¿ng nháº¥t huyá»‡n Khai Phong thá»i Báº¯c Tá»‘ng.Nhá» cÃ³ Ã´ng mÃ  dÃ¢n chÃºng cÃ³ Ä‘Æ°á»£c má»™t cuá»™c sá»‘ng áº¥m no háº¡nh phÃºc. Trong phim online nÃ y, Triá»ƒn ChiÃªu lÃ  má»™t trong nhá»¯ng thá»§ háº¡ tÃ¢m Ä‘áº¯c nháº¥t cá»§a Ã´ng.NhÆ°ng lÃ  má»™t káº» yÃªu thÃ­ch sá»± tá»± do tá»± táº¡i, cuá»™c sá»‘ng nÆ¡i quan trÆ°á»ng khiáº¿n Triá»ƒn ChiÃªu cáº£m tháº¥y nhÃ m chÃ¡n.Anh liá»n Ä‘i chu du tá»© háº£i hÃ nh hiá»‡p trÆ°á»£ng nghÄ©a.Trong má»™t láº§n hÃ nh Ä‘á»™ng,Triá»ƒn ChiÃªu Ä‘Ã£ gáº·p pháº£i má»™t ngÆ°á»i báº¡n vá»«a Ä‘Ã¡ng sá»£ vá»«a quan trá»ng trong cuá»™c Ä‘á»i cá»§a anh, Cáº©m Mao Thá»­ - Báº¡ch Ngá»c ÄÆ°á»ng.VÃ  cÅ©ng xuáº¥t hiá»‡n 1 ngÆ°á»i con gÃ¡i ráº¥t yÃªu anh nhÆ°ng cuá»‘i cÃ¹ng láº¡i ko cÃ³ Ä‘Æ°á»£c anh - Nguyá»‡t Hoa cÃ´ng chÃºa. Xem phim Äáº¡i Hiá»‡p Triá»ƒn ChiÃªu vÃ  hy vá»ng bá»™ phim sáº½ mang láº¡i nhá»¯ng giá» phÃºt thÆ° giÃ£n cho cÃ¡c báº¡n!
+</column>
+            <column name="luotxem">2</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqRVhvbS1xTm5VWXc/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">13</column>
+            <column name="tenphimvi">SÃ¡t Thá»§ BÃ³ng ÄÃªm (2016)</column>
+            <column name="tenphimen">Assassin is CreedÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 55min</column>
+            <column name="diemimdb">6.0</column>
+            <column name="poster">http://phim.mt/Assassin%20is%20Creed%202016/poster.jpg</column>
+            <column name="mota">Nhá» vÃ o má»™t cÃ´ng nghá»‡ cáº£i tiáº¿n cÃ³ thá»ƒ phÃ¡ vá»¡ nhá»¯ng kÃ­ á»©c trong cáº¥u trÃºc gien, Callum Lynch Ä‘Ã£ cÃ³ thá»ƒ lÃ m sá»‘ng láº¡i kÃ­ á»©c vá» nhá»¯ng cuá»™c phiÃªu lÆ°u cá»§a tá»• tiÃªn mÃ¬nh â€“ Aguilar â€“ TÃ¢y Ban Nha vÃ o tháº¿ ká»‰ 15. ThÃ´ng qua kÃ­ á»©c nÃ y, Callum Ä‘Ã£ phÃ¡t hiá»‡n ráº±ng mÃ¬nh lÃ  háº­u duá»‡ cá»§a má»™t há»™i kÃ­n bÃ­ áº©n mang tÃªn Assassins vÃ  Ä‘á»“ng thá»i tÃ­ch lÅ©y Ä‘Æ°á»£c hÃ ng loáº¡t kiáº¿n thá»©c, kÄ© nÄƒng khÃ´ng tÆ°á»Ÿng Ä‘á»ƒ Ä‘á»‘i Ä‘áº§u vá»›i má»™t tá»• chá»©c Ä‘áº§y Ã¡p bá»©c vÃ  hÃ¹ng máº¡nh ngÃ y nay â€“ Hiá»‡p SÄ© DÃ²ng Äá»n.</column>
+            <column name="luotxem">21</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqbVk0VFdqZU4yaVU/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">14</column>
+            <column name="tenphimvi">Tháº¿ Giá»›i Ngáº§m 5: Tráº­n Chiáº¿n Äáº«m MÃ¡u (2016)</column>
+            <column name="tenphimen">Underworld: Blood WarsÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 31min</column>
+            <column name="diemimdb">5.8</column>
+            <column name="poster">http://phim.mt/Underworld%20Blood%20Wars%202016/poster.jpg</column>
+            <column name="mota">Sau nÄƒm nÄƒm váº¯ng bÃ³ng, bÃ´ng há»“ng nÆ°á»›c anh Kate Beckinsale tiáº¿p tá»¥c trá»Ÿ láº¡i vá»›i hÃ nh trÃ¬nh sÄƒn ngÆ°á»i sÃ³i trong pháº§n nÄƒm cá»§a series mang tÃªn Underworld: Blood Wars.Â á»ž pháº§n phim trÆ°á»›c, cáº£ NgÆ°á»i sÃ³i vÃ  phe Ma cÃ  rá»“ng Ä‘á»u bá»‹ loÃ i ngÆ°á»i táº¥n cÃ´ng vÃ  tiÃªu diá»‡t. Tuy nhiÃªn, nhá»¯ng hÃ¬nh cáº£nh trong trailer cá»§a Underworld: Blood Wars cho tháº¥y cáº£ 2 giá»‘ng loÃ i tá»«ng thá»‘ng trá»‹ Tháº¿ giá»›i tá»« hÃ ng trÄƒm nÄƒm trÆ°á»›c nÃ y váº«n cÃ²n hÃ¹ng máº¡nh láº«n nhiá»u bÃ­ áº©n bÃªn trong mÃ  ngÆ°á»i xem chÆ°a Ä‘Æ°á»£c biáº¿t háº¿t. KhÃ´ng nhá»¯ng tháº¿ phe NgÆ°á»i sÃ³i Ä‘Ã£ cÃ³ thá»§ lÄ©nh má»›i lÃ  Marius vÃ  phÃ¡t Ä‘á»™ng cuá»™c chiáº¿n diá»‡n rá»™ng chá»‘ng láº¡i Ma cÃ  rá»“ng. KhÃ´ng chá»‰ sá»­ dá»¥ng sÃºng mÃ  cáº£ 2 phe cÃ²n cÃ³ nhá»¯ng pha cáº­n chiáº¿n vá»›i kiáº¿m vÃ´ cÃ¹ng mÃ£n nhÃ£n.</column>
+            <column name="luotxem">3</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqTl9HV3JKMjdYamM/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">15</column>
+            <column name="tenphimvi">Tá»­ Chiáº¿n TrÆ°á»ng ThÃ nh (2016)</column>
+            <column name="tenphimen">The Great WallÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 43min</column>
+            <column name="diemimdb">6.1</column>
+            <column name="poster">http://phim.mt/The%20Great%20Wall%202016/poster.jpg</column>
+            <column name="mota">Láº¥y bá»‘i cáº£nh thá»i ká»³ Báº¯c Tá»‘ng, chuyá»‡n phim xoay quanh cÃ¢u chuyá»‡n cá»§a William Garin (Damon) â€“ thÃ nh viÃªn trong nhÃ³m lÃ­nh Ä‘Ã¡nh thuÃª chÃ¢u Ã‚u Ä‘Æ°á»£c cá»­ sang Trung Quá»‘c Ä‘á»ƒ Ä‘Ã¡nh cáº¯p cÃ´ng thá»©c cháº¿ táº¡o thuá»‘c sÃºng. Sau khi bá»‹ phÃ¡t hiá»‡n vÃ  bá»‹ tá»‘ng giam bÃªn trong Váº¡n LÃ½ TrÆ°á»ng ThÃ nh, anh Ä‘Ã£ vÃ´ tÃ¬nh phÃ¡t hiá»‡n ra nhá»¯ng bÃ­ áº©n Ä‘Ã¡ng sá»£ Ä‘áº±ng sau cÃ´ng trÃ¬nh Ä‘Æ°á»£c coi lÃ  Äá»‡ nháº¥t ká»³ quan cá»§a tháº¿ giá»›i. </column>
+            <column name="luotxem">3</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqcWdzeWFuQ1hxY0U/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">16</column>
+            <column name="tenphimvi">VÃ¹ng Äáº¥t Quá»· Dá»¯ 6: Há»“i Cuá»‘i (2016)</column>
+            <column name="tenphimen">Resident Evil: The Final ChapterÂ (2016) </column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 47min</column>
+            <column name="diemimdb">5.6</column>
+            <column name="poster">http://phim.mt/Resident%20Evil%20The%20Final%20Chapter%202016/poster.jpg</column>
+            <column name="mota">VÃ¹ng Äáº¥t Dá»¯ 6: Há»“i Cuá»‘iÂ lÃ  pháº§n cuá»‘i cá»§a chÃ¹m phim hÃ nh Ä‘á»™ng Äƒn khÃ¡ch Resident Evil. Phim Ä‘Æ°á»£c chuyá»ƒn thá»ƒ tá»« video game kinh dá»‹ cÃ¹ng tÃªn háº¥p dáº«n cá»§a hÃ£ng Capcom.Â Trong pháº§n nÃ y, Alice, Jill, Claire, Chris, Leon, Ada, cÃ¹ng Wesker pháº£i cá»‘ gáº¯ng trong cuá»™c chiáº¿n cuá»‘i cÃ¹ng chá»‘ng láº¡i nguy cÆ¡ tuyá»‡t diá»‡t loÃ i ngÆ°á»i.
+</column>
+            <column name="luotxem">5</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqVjhiYWs4MC1SQTA/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">17</column>
+            <column name="tenphimvi">Chiáº¿n Tranh Giá»¯a CÃ¡c VÃ¬ Sao: Ngoáº¡i Truyá»‡n (2016)</column>
+            <column name="tenphimen">Rogue OneÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">2h 13min</column>
+            <column name="diemimdb">7.9</column>
+            <column name="poster">http://phim.mt/Rogue%20One%202016/poster.jpg</column>
+            <column name="mota">Rogue One: A Star Wars Story, cÃ²n Ä‘Æ°á»£c biáº¿t Ä‘áº¿n vá»›i tÃªn &quot;Star Wars: Ngoáº¡i truyá»‡n&quot;, diá»…n ra trong khoáº£ng thá»i gian giá»¯a táº­p III (Revenge of the Sith) vÃ  táº­p IV (The New Hope). Theo chÃ¢n ná»¯ nhÃ¢n váº­t chÃ­nh xinh Ä‘áº¹p Jyn Erso trong sá»© má»‡nh Ä‘Ã¡nh cáº¯p báº£n thiáº¿t káº¿ cá»§a vÅ© khÃ­ huá»· diá»‡t NgÃ´i Sao Cháº¿t (The Death Star). ÄÃ¢y chÃ­nh lÃ  máº¥u chá»‘t Ä‘á»ƒ vÃ©n lÃªn bá»©c mÃ n sá»± tháº­t Ä‘áº±ng sau viá»‡c quÃ¢n liÃªn minh phÃ¡t hiá»‡n ra Ä‘iá»ƒm yáº¿u cá»§a NgÃ´i Sao cháº¿t vÃ  phÃ¡ huá»· nÃ³ trong táº­p IV. Äiá»u nÃ y cÅ©ng khÃ©p láº¡i nhá»¯ng tranh luáº­n vá» vÃ¬ sao siÃªu vÅ© khÃ­ cá»§a Ä‘áº¿ cháº¿ láº¡i cÃ³ thá»ƒ bá»‹ phÃ¡ huá»· má»™t cÃ¡ch dá»… dÃ ng nhÆ° váº­y, vá»‘n Ä‘Ã£ kÃ©o dÃ i hÆ¡n 40 nÄƒm qua.</column>
+            <column name="luotxem">38</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqdVZkS3ppTjBLNkE/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">18</column>
+            <column name="tenphimvi">Äáº¥u TrÆ°á»ng Ã‚m Nháº¡c (2016)</column>
+            <column name="tenphimen">SingÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 48min</column>
+            <column name="diemimdb">7.2</column>
+            <column name="poster">http://phim.mt/Sing%202016/poster.jpg</column>
+            <column name="mota">Sing 2016Â lÃ  bá»™ phim hoáº¡t hÃ¬nh xoay quanh má»™t cuá»™c thi Ã¢m nháº¡c cá»§a cÃ¡c loáº¡i Ä‘á»™ng váº­y. Phong cÃ¡ch vui nhá»™n, sá»± phong phÃº vá» Ä‘á»“ há»a vÃ  dÄ© nhiÃªn, Ã¢m nháº¡c Ä‘áº·c sáº¯c chÃ­nh lÃ  nhá»¯ng Ä‘iá»ƒm Ä‘Ã¡ng mong Ä‘á»£i á»Ÿ tÃ¡c pháº©m nÃ y. Äáº¡o diá»…n thá»±c hiá»‡n phim lÃ  má»™t tÃªn tuá»•i khÃ¡ láº¡, Garth Jennings, tuy nhiÃªn dÃ n diá»…n viÃªn lá»“ng tiáº¿ng láº¡i cá»±c ká»³ quen máº·t. Há» chÃ­nh lÃ  Matthew McConaughey, Reese Witherspoon, Seth MacFarlane, Tori Kelly...
+</column>
+            <column name="luotxem">13</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqTjhmcEhWRVpiVG8/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">19</column>
+            <column name="tenphimvi">PhÃ¹ Thá»§y Tá»‘i ThÆ°á»£ng (2016)</column>
+            <column name="tenphimen">Doctor StrangeÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">1h 55min</column>
+            <column name="diemimdb">7.6</column>
+            <column name="poster">http://phim.mt/Doctor%20Strange%202016/poster.jpg</column>
+            <column name="mota">DOCTOR STRANGE lÃ  cÃ¢u chuyá»‡n vá» bÃ¡c sÄ© Giáº£i Pháº«u Tháº§n Kinh tÃªn Stephen Vincent Strange. Cuá»™c Ä‘á»i anh thay Ä‘á»•i tá»« sau má»™t tai náº¡n xe hÆ¡i khá»§ng khiáº¿p. Sau tai náº¡n Ä‘Ã³, Stephen nháº­n ra mÃ¬nh cÃ³ nhá»¯ng nÄƒng lá»±c bÃ­ áº©n cÅ©ng nhÆ° biáº¿t thÃªm vá» tháº¿ giá»›i ma thuáº­t huyá»n bÃ­. Tá»« má»™t vá»‹ bÃ¡c sÄ© bÃ¬nh thÆ°á»ng, Stephen Strange dáº§n nháº­n Ä‘Æ°á»£c nhiá»u siÃªu nÄƒng lá»±c Ä‘á»ƒ cá»©u trÃ¡i Ä‘áº¥t khá»i nhá»¯ng tai há»a. </column>
+            <column name="luotxem">48</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqdzU4a1pmMVZjT3c/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">20</column>
+            <column name="tenphimvi">NgÃ y Äá»‹nh Má»‡nh (2016)</column>
+            <column name="tenphimen">Patriots DayÂ (2016)</column>
+            <column name="nam">2016</column>
+            <column name="thoigian">2h 13min</column>
+            <column name="diemimdb">7.4</column>
+            <column name="poster">http://phim.mt/Patriots%20Day%202016/poster.jpg</column>
+            <column name="mota">Patriots Day, quy tá»¥ Mark Wahlberg vÃ  má»¹ nhÃ¢n gá»‘c Viá»‡t Lana Condor, thuáº­t láº¡i vá»¥ Ä‘Ã¡nh bom khá»§ng bá»‘ giáº¿t cháº¿t ba ngÆ°á»i Ä‘á»“ng thá»i lÃ m 264 ngÆ°á»i bá»‹ thÆ°Æ¡ng táº¡i giáº£i marathon á»Ÿ Boston (Má»¹) vÃ o ngÃ y 15/4/2013. Cá»‘t truyá»‡n xoay quanh má»™t sÄ© quan cáº£nh sÃ¡t sau khi chá»©ng kiáº¿n vá»¥ Ä‘Ã¡nh bom Ä‘Ã£ gáº·p hÃ ng loáº¡t náº¡n nhÃ¢n cÃ¹ng nhÃ  chá»©c trÃ¡ch liÃªn quan Ä‘á»ƒ Ä‘iá»u tra hung thá»§.</column>
+            <column name="luotxem">4</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqcWVZelVJRWNwUzA/preview</column>
+        </table>
+        <table name="phim">
+            <column name="idphim">21</column>
+            <column name="tenphimvi">NgÆ°á»i SÃ³i: Tráº­n Chiáº¿n Cuá»‘i CÃ¹ng (2017)</column>
+            <column name="tenphimen">LoganÂ (2017)</column>
+            <column name="nam">2017</column>
+            <column name="thoigian">2h 17min</column>
+            <column name="diemimdb">8.3</column>
+            <column name="poster">http://phim.mt/Logan%202017/poster.jpg</column>
+            <column name="mota">Äáº·t bá»‘i cáº£nh á»Ÿ tÆ°Æ¡ng lai nÄƒm 2024, khi nhÃ³m X-Men Ä‘Ã£ tan rÃ£. NÄƒng lá»±c há»“i phá»¥c cá»§a Wolverine â€“ Logan dáº§n dáº§n máº¥t Ä‘i cÃ²n giÃ¡o sÆ° X láº¡i máº¯c bá»‡nh Alzheimer suy giáº£m trÃ­ nhá»›. LÃºc nÃ y, má»™t táº­p Ä‘oÃ n do Nathaniel Essex lÃ£nh Ä‘áº¡o tÃ¬m cÃ¡ch phÃ¡ hoáº¡i tháº¿ giá»›i, Logan pháº£i chiáº¿n Ä‘áº¥u chá»‘ng láº¡i háº¯n cÃ¹ng vá»›i sá»± giÃºp Ä‘á»¡ cá»§a cÃ´ bÃ© Laura Kinney â€“ má»™t ngÆ°á»i Ä‘á»™t biáº¿n Ä‘Æ°á»£c nhÃ¢n báº£n tá»« chÃ­nh Ã´ng.
+</column>
+            <column name="luotxem">2</column>
+            <column name="linkphim">https://drive.google.com/file/d/0Bz7FgiHfhIxqZmViOHNuUncyVUk/preview</column>
+        </table>
+        <!-- Bảng phimyeuthich -->
+        <table name="phimyeuthich">
+            <column name="id">1</column>
+            <column name="idphim">7</column>
+        </table>
+        <table name="phimyeuthich">
+            <column name="id">1</column>
+            <column name="idphim">8</column>
+        </table>
+        <table name="phimyeuthich">
+            <column name="id">3</column>
+            <column name="idphim">13</column>
+        </table>
+        <table name="phimyeuthich">
+            <column name="id">3</column>
+            <column name="idphim">17</column>
+        </table>
+        <table name="phimyeuthich">
+            <column name="id">3</column>
+            <column name="idphim">19</column>
+        </table>
+        <table name="phimyeuthich">
+            <column name="id">3</column>
+            <column name="idphim">21</column>
+        </table>
+        <!-- Bảng theloai -->
+        <table name="theloai">
+            <column name="idphim">0</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">0</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">0</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">1</column>
+            <column name="tentheloai">Kinh dá»‹</column>
+            <column name="tentheloai_khongdau">Kinhdi</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">1</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">2</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">2</column>
+            <column name="tentheloai">HÃ nh Äá»™ng</column>
+            <column name="tentheloai_khongdau">HanhDong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">2</column>
+            <column name="tentheloai">VÃµ thuáº­t</column>
+            <column name="tentheloai_khongdau">Vothuat</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">3</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">3</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">3</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">4</column>
+            <column name="tentheloai">Kinh dá»‹</column>
+            <column name="tentheloai_khongdau">Kinhdi</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">4</column>
+            <column name="tentheloai">TÃ¬nh cáº£m</column>
+            <column name="tentheloai_khongdau">Tinhcam</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">5</column>
+            <column name="tentheloai">Ã‚m nháº¡c</column>
+            <column name="tentheloai_khongdau">Amnhac</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">5</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">5</column>
+            <column name="tentheloai">TÃ¬nh cáº£m</column>
+            <column name="tentheloai_khongdau">Tinhcam</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">7</column>
+            <column name="tentheloai">Ã‚m nháº¡c</column>
+            <column name="tentheloai_khongdau">Amnhac</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">7</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">7</column>
+            <column name="tentheloai">Kinh dá»‹</column>
+            <column name="tentheloai_khongdau">Kinhdi</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">8</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">8</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">8</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">9</column>
+            <column name="tentheloai">Gia Ä‘Ã¬nh</column>
+            <column name="tentheloai_khongdau">Giadinh</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">9</column>
+            <column name="tentheloai">Hoáº¡t hÃ¬nh</column>
+            <column name="tentheloai_khongdau">Hoathinh</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">9</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">9</column>
+            <column name="tentheloai">TÃ¬nh cáº£m</column>
+            <column name="tentheloai_khongdau">Tinhcam</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">10</column>
+            <column name="tentheloai">Chiáº¿n tranh</column>
+            <column name="tentheloai_khongdau">Chientranh</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">10</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">10</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">11</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">11</column>
+            <column name="tentheloai">Kinh dá»‹</column>
+            <column name="tentheloai_khongdau">Kinhdi</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">11</column>
+            <column name="tentheloai">Tá»™i pháº¡m</column>
+            <column name="tentheloai_khongdau">Toipham</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">12</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">12</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">13</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">13</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">13</column>
+            <column name="tentheloai">TÃ¬nh cáº£m</column>
+            <column name="tentheloai_khongdau">Tinhcam</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">14</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">14</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">14</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">15</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">15</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">15</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">16</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">16</column>
+            <column name="tentheloai">Kinh dá»‹</column>
+            <column name="tentheloai_khongdau">Kinhdi</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">16</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">17</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">17</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">17</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">18</column>
+            <column name="tentheloai">Ã‚m nháº¡c</column>
+            <column name="tentheloai_khongdau">Amnhac</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">18</column>
+            <column name="tentheloai">Gia Ä‘Ã¬nh</column>
+            <column name="tentheloai_khongdau">Giadinh</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">18</column>
+            <column name="tentheloai">HÃ i hÆ°á»›c</column>
+            <column name="tentheloai_khongdau">Haihuoc</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">18</column>
+            <column name="tentheloai">Hoáº¡t hÃ¬nh</column>
+            <column name="tentheloai_khongdau">Hoathinh</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">19</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">19</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">19</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">20</column>
+            <column name="tentheloai">Kinh dá»‹</column>
+            <column name="tentheloai_khongdau">Kinhdi</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">20</column>
+            <column name="tentheloai">Lá»‹ch Sá»­</column>
+            <column name="tentheloai_khongdau">LichSu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">20</column>
+            <column name="tentheloai">TÃ¢m lÃ½</column>
+            <column name="tentheloai_khongdau">Tamly</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">21</column>
+            <column name="tentheloai">HÃ nh Ä‘á»™ng</column>
+            <column name="tentheloai_khongdau">Hanhdong</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">21</column>
+            <column name="tentheloai">PhÆ°u lÆ°u</column>
+            <column name="tentheloai_khongdau">Phuuluu</column>
+        </table>
+        <table name="theloai">
+            <column name="idphim">21</column>
+            <column name="tentheloai">Viá»…n tÆ°á»Ÿng</column>
+            <column name="tentheloai_khongdau">Vientuong</column>
+        </table>
+        <!-- Bảng user -->
+        <table name="user">
+            <column name="id">1</column>
+            <column name="mail">minhtuan9922@gmail.com</column>
+            <column name="ho_ten">Minh Tuáº¥n</column>
+            <column name="gioitinh">Nam</column>
+            <column name="ngaysinh">1992-03-10</column>
+            <column name="pass">123</column>
+            <column name="avatar">avatar.png</column>
+        </table>
+        <table name="user">
+            <column name="id">2</column>
+            <column name="mail">mai@gmail.com</column>
+            <column name="ho_ten">Mai</column>
+            <column name="gioitinh">Ná»¯</column>
+            <column name="ngaysinh">1994-05-01</column>
+            <column name="pass">123</column>
+            <column name="avatar">avatar.png</column>
+        </table>
+        <table name="user">
+            <column name="id">3</column>
+            <column name="mail">abc@gmail.com</column>
+            <column name="ho_ten"></column>
+            <column name="gioitinh"></column>
+            <column name="ngaysinh"></column>
+            <column name="pass">123</column>
+            <column name="avatar">avatar.png</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,10 @@
+$a = '
+<script type="text/javascript">
+	var playerInstance = jwplayer( "myElement" );
+	playerInstance.setup( {    
+		file: src = "'.$link.'",
+		type: "mp4",
+			width: "100%",
+			aspectratio: "16:9"
+	} );
+</script>';

@@ -1,0 +1,115 @@
+#menu li a:hover {
+	display: block;
+	background: #000000;
+}
+
+.phimmoicapnhat {
+	width: 100%;
+	height: auto;
+	background: #212121;
+	border-radius: 0px;
+	padding: 20px;
+}
+.phim1 {
+	position: relative;
+	width: auto;
+}
+.phim1 ul {
+	width: auto;
+	list-style: none;
+
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+
+.phim1:hover .middle {
+  opacity: 1;
+}
+
+
+.phim1 .tenphim {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+
+.tenphim {
+	text-align: justify;
+	position: absolute;
+    bottom: 0px; 
+	left: 15px;
+	right: 15px;
+    font-size: 16px;
+    background: hsla(0,0%,0%,0.58);
+	
+}
+
+.thongtin p {
+	color: #9E9E9E;
+}
+.play {
+	width: 100%;
+	height: auto;
+
+}
+/*
+.right {
+	width: 295px;
+	height: 1000px;
+	float: right;
+} */
+.phim2 ul {
+	list-style: none;
+}
+
+.phim2 ul li a {
+	text-decoration: none;
+}
+
+
+.phimxemnhieu {
+	width: auto;
+	height: auto;
+	border: 1px solid #5C5C5C;
+}
+.phimhot {
+	width: auto;
+	height: auto;
+	background: #212121;
+	padding: 4%;
+	border-radius: 0px;
+	margin-top: -15px;
+}
+
+
+.footer {
+	background: #212121;
+	border-radius: 0px;
+}
+
+.clear {
+	width: auto;
+	height: 5px;
+	clear: both;
+}.clear1 {
+	width: auto;
+	height: 60px;
+}
