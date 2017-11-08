@@ -1,12 +1,28 @@
-<div id="content" class="container">	
+<div id="content" class="container-fluid">	
 	<?php
-		$this->load->view('layout/content/phimmoicapnhat');
+		$data['loadphim'] = $this->Mphim->phimmoicapnhat();
+		$data['tieude'] = 'PHIM MỚI CẬP NHẬT';
+		$data['link'] = base_url('phimmoicapnhat');
+		$this->load->view('layout/content/loadphim', $data);
+		echo('<div class="clear"></div>');	
+	
+		$data['loadphim'] = $this->Mtheloai->phim_home('Hanhdong');
+		$data['tieude'] = 'PHIM HÀNH ĐỘNG';
+		$data['link'] = base_url('hanhdong');
+		$this->load->view('layout/content/loadphim', $data);
 		echo('<div class="clear"></div>');
-		$this->load->view('layout/content/phim_hanhdong');
+	
+		$data['loadphim'] = $this->Mtheloai->phim_home('Hoathinh');		
+		$data['tieude'] = 'PHIM HOẠT HÌNH';
+		$data['link'] = base_url('hoathinh');
+		$this->load->view('layout/content/loadphim', $data);
 		echo('<div class="clear"></div>');
-		$this->load->view('layout/content/phim_hoathinh');
+	
+		$data['loadphim'] = $this->Mtheloai->phim_home('Haihuoc');
+		$data['tieude'] = 'PHIM HÀI';
+		$data['link'] = base_url('phimhai');
+		$this->load->view('layout/content/loadphim', $data);
 		echo('<div class="clear"></div>');
-		$this->load->view('layout/content/phim_haihuoc');
 		//if (isset($_GET['xem']))
 //		{
 //

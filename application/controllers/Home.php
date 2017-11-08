@@ -21,7 +21,6 @@ class Home extends CI_Controller {
 	protected $_data;
 	public function __construct() {
 		parent::__construct();
-		$this->load->helper('url');
 		
 	}
 	public function index()
@@ -32,10 +31,7 @@ class Home extends CI_Controller {
 		$this->load->model('Mslider');
 		$this->_data['slide'] = $this->Mslider->slider();
 		$this->load->model('Mphim');
-		$this->_data['phimmoicapnhat'] = $this->Mphim->phimmoicapnhat();
-		$this->_data['phim_hanhdong'] = $this->Mtheloai->phim_home('Hanhdong');
-		$this->_data['phim_hoathinh'] = $this->Mtheloai->phim_home('Hoathinh');
-		$this->_data['phim_haihuoc'] = $this->Mtheloai->phim_home('Haihuoc');
+		
 		$this->load->model('Mlogin');
 		//view
 		$this->_data['slider'] = 'layout/slider/slider';
@@ -44,31 +40,25 @@ class Home extends CI_Controller {
 	}	
 	public function login()
 	{
-		$this->_data['title'] = 'Trang chủ | PhimMT';
-		$this->load->model('Mtheloai');
-		$this->_data['theloai'] = $this->Mtheloai->get_theloai();
-		$this->load->model('Mslider');
-		$this->_data['slide'] = $this->Mslider->slider();
-		$this->load->model('Mphim');
-		$this->_data['phimmoicapnhat'] = $this->Mphim->phimmoicapnhat();
-		$this->_data['phim_hanhdong'] = $this->Mtheloai->phim_home('Hanhdong');
-		$this->_data['phim_hoathinh'] = $this->Mtheloai->phim_home('Hoathinh');
-		$this->_data['phim_haihuoc'] = $this->Mtheloai->phim_home('Haihuoc');
 		//đăng nhập
 		$mail = $this->input->post('mail');
 		$pass = $this->input->post('pass');
-		echo($mail);
-		echo $pass;
 		$this->load->model('Mlogin');
 		$dem = $this->Mlogin->check($mail, $pass);
-		echo($dem);
 		if($dem == 1)
 		{
 			$this->session->set_userdata("login", $mail);
+			redirect(base_url());
 		}
 		//view
-		$this->_data['slider'] = 'layout/slider/slider';
-		$this->_data['content'] = 'layout/content';
-		$this->load->view('index', $this->_data);
+		
+	}	
+	public function logout()
+	{
+		//đăng xuất
+		$this->session->unset_userdata("login");
+		redirect(base_url());
+		//view
+		
 	}
 }

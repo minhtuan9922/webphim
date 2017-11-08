@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title; ?></title>
 	<link rel="icon" href="img/icon.png">
-	<link href="<?php echo base_url(); ?>css/style.css" type="text/css" rel="stylesheet" />
+	<link href="<?=base_url(); ?>css/style.css" type="text/css" rel="stylesheet" />
 	<link href="<?php echo base_url(); ?>css/bootstrap.css" type="text/css" rel="stylesheet" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>slide/themes/default/default.css" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>slide/themes/light/light.css" type="text/css" media="screen"/>
